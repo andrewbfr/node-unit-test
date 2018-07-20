@@ -1,0 +1,1 @@
+console.log("--- foo -- foo shouldn't run");
