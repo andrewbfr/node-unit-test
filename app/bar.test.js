@@ -19,7 +19,7 @@ describe('files to be tested', () => {
 			assert.equal(50,50);
 			console.log(`Env= ${process.env.NODE_ENV}`);
 			if (process.env.NODE_ENV == 'development'){
-				console.log('DEVELOPMENT MODE BRAH');
+				console.log('DEVELOPMENT MODE BRAH confirmed with conditional check');
 				console.log('YOU CAN SET variables here, and make some development specific tests');
 			}
 		});
